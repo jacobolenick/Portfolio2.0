@@ -4628,16 +4628,19 @@ body.is-cursor-active * {
   height: 100vh;
   display: flex;
   align-items: flex-end;
+  border: solid black;
 }
 
 .masthead.-type-work-1 .masthead__content {
   padding-top: 16.25rem;
   padding-bottom: 5rem;
+  border: solid black;
 }
 
 @media (max-width: 991px) {
   .masthead.-type-work-1 .masthead__content {
     padding-top: 11.25rem;
+    border: solid black;
   }
 }
 
@@ -4645,6 +4648,7 @@ body.is-cursor-active * {
   .masthead.-type-work-1 .masthead__content {
     padding-top: 8.75rem;
     padding-bottom: 3.75rem;
+    border: solid black;
   }
 }
 
@@ -4652,6 +4656,7 @@ body.is-cursor-active * {
   .masthead.-type-work-1 .masthead__content {
     padding-top: 6.25rem;
     padding-bottom: 2.5rem;
+    border: solid black;
   }
 }
 
@@ -4659,43 +4664,51 @@ body.is-cursor-active * {
   line-height: 1.05;
   font-size: 6.25rem;
   letter-spacing: -0.01em;
+  border: solid black;
 }
 
 @media (max-width: 991px) {
   .masthead.-type-work-1 .masthead__title {
     font-size: 5.625rem;
+    border: solid black;
   }
 }
 
 @media (max-width: 767px) {
   .masthead.-type-work-1 .masthead__title {
     font-size: 4.375rem;
+    border: solid black;
   }
 }
 
 @media (max-width: 575px) {
   .masthead.-type-work-1 .masthead__title {
     font-size: 3.5rem;
+    border: solid black;
   }
 }
 
 .masthead.-type-work-1 .masthead__title .split__line {
   padding-bottom: 0.25rem;
+  border: solid black;
 }
 
 .masthead.-type-work-1 .masthead__info__wrap {
   margin-top: 13.75rem;
+  border: solid black;
 }
 
 @media (max-width: 991px) {
   .masthead.-type-work-1 .masthead__info__wrap {
     margin-top: 8.75rem;
+    border: solid black;
   }
 }
 
 @media (max-width: 575px) {
   .masthead.-type-work-1 .masthead__info__wrap {
     margin-top: 4.5rem;
+    border: solid black;
   }
 }
 
@@ -5358,6 +5371,9 @@ body.is-cursor-active * {
 ---------------------------------------------------*/
 .portfolioCard {
   display: block;
+  border: solid black;
+  padding: 10px;
+  border-radius: 18px;
 }
 
 .portfolioCard__img {
